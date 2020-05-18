@@ -2,6 +2,8 @@
 All the discussions and examples given in the FDP can be seen here.
 #  Web Design Using React Js
 
+# Day Wise -01
+
 ## What is web design ?
    Creating a website or webpage either static or dynamic is known as Web design
 
@@ -70,5 +72,109 @@ All the discussions and examples given in the FDP can be seen here.
  14. **git remote**->will check the remote(default one is origin)
  
  15. **git push remotename master** ->will push the file from local folder to repository
+ 
+ # Day Wise -02
+ 
+ 
+ * Installing Sublime Text Editor 3 : [SublimeText3 Installation Link](https://www.sublimetext.com/3)
+ 
+ 
+ ## What is Html
+    Html stands for Hyper Text Markup language used to create web pages
+    For Working with Html we need a Text Editor
+ 
+ * Version of Html is 5
+ 
+ ### Types of Elements in Html5:
+                               1. Block-level elements
+                               2. In-Line Elements
+                               3. Semantic Elements
+                               4. Navigation
+   
+   
+   
+   #### Block-level Elements: Occupies Complete Width Of The Screen 
+                             1. All heading tags(<h1>,...<h6>)
+                             
+                             2. paragraph Tag(<p>)
+                             
+                             3. All Semantic Elements
+   
+   
+   #### In-Line Elements: The content will come side by side
+                          1. Span Tag
+                          
+                          2. Image Tag
+                          
+                          3. Nav Bars
+                          
+                          4. Form Control Events
+                          
+   #### Semantic Elements : This Elements are used to divide the Homepage it contains Description
+   
+                            1. Section
+                            
+                            2. article
+                            
+                            3. aside
+                            
+                            4. header
+                            
+                            5. footer
+                            
+                            6. main
+                            
+                            
+ #### Navigation Elements : This Elements are used to navigate or to link the content from one page to another or with in the page.
+                          
+                          It uses <a, href> Tag.
+                          
+                          1. In bound
+                          
+                          2. Out Bound
+                          
+                          3. Mailto
+                          
+                          4. tel
+                          
+                          
+ ## CSS : (Cascading Style Sheet)
+         * Adds beautification to html page *  
+         
+ **Syntax** : Selector{Property:value}
+ 
+ 
+ #### Selector: To add styles we have to select the content for that we need selectors
+ 
+ ##### Types of Selectors:
+                          1. Class Selector(.)
+                          
+                          2. Identifier Selector(#)
+                          
+                          3. Element or Tag Name Selector
+                          
+                          4. Descendant Selector
+                             .parent #child(Tag)
+                             
+                          5. Child Combiner
+                              .parent > #child(Tag)
+                              
+### Types of CSS:
+                 
+                  **Inline CSS**
+                  
+                  **Internal CSS**
+                  
+                  **External CSS**
+                          
+                          
+ 
+ 
+                             
+   
+                      
+ 
+ 
+
                                                            
                                 
