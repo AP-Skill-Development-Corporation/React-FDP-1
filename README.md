@@ -34,7 +34,7 @@ All the discussions and examples given in the FDP can be seen here.
   
   2. **git config --global user.email "mailid"** -> This Command configures mailid in git
   
-  **git init** ->Initializes the git
+     **git init** ->Initializes the git
   
   
   3. Open your Git Hub Account and create a New Repository ,make it as public and create a Readme.md file(For documentation in markdown)
@@ -45,8 +45,8 @@ All the discussions and examples given in the FDP can be seen here.
   
   5. **git clone paste the url** ->This Command will create a folder in your desktop with the same name of your Repository
   
-  If you observe your local folder it contains two folders 1..git(hidden file)
-                                                           2.Readme.md file
+      If you observe your local folder it contains two folders 1..git(hidden file)
+                                                               2.Readme.md file
                                                            
   
   6. **ls**->This command will give the list of files
@@ -59,16 +59,16 @@ All the discussions and examples given in the FDP can be seen here.
  
   9. **mkdir js** ->creates a js folder in local folder
  
-  10. **mkdir image**->creates a image folder in local folder
+ 10. **mkdir image**->creates a image folder in local folder
  
-  11. **git status**->Will check the status of the git
+ 11. **git status**->Will check the status of the git
  
-  12. **git add .**->will add all the files from untracking area to tracking
+ 12. **git add .**->will add all the files from untracking area to tracking
  
-  13. **git commit -m "commit message"**->will commit the changes that we have done
+ 13. **git commit -m "commit message"**->will commit the changes that we have done
  
-  14. **git remote**->will check the remote(default one is origin)
+ 14. **git remote**->will check the remote(default one is origin)
  
-  15. **git push remotename master** ->will push the file from local folder to repository
+ 15. **git push remotename master** ->will push the file from local folder to repository
                                                            
                                 
