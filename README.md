@@ -187,6 +187,27 @@ All the discussions and examples given in the FDP can be seen here.
                   2. Internal CSS
                   
                   3. External CSS
+                  
+
+
+## Daywise-03
+
+#### Flexboxes:
+               These are the advanced concepts of css grids.
+
+
+###### Flex-Properties: 
+                       1. display: flex; (primary property)
+                       2. flex-direction
+                       3. flex-wrap
+                       4. justify-content
+
+
+###### Rules:
+              1. we have to create a parent using divison or semantic elements
+              2. we should have a child in it.
+              
+#### Different types of properties and values
                           
                           
  
