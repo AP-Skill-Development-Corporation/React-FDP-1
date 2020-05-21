@@ -234,6 +234,18 @@ ____
    **dark** | Black
    **light** | Light grey
    **muted** | Disable
+   
+### Screen resolutions
+   * xs
+      * eXtra small
+   * sm
+      * Small
+   * md
+      * Medium
+   * lg
+      * Large
+   * xl
+      * eXtra Large
                           
                           
  
