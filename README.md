@@ -214,11 +214,11 @@ ____
 
 ### Bootstrap :
    * Easy to integrate
-      * _We can integrate different parts of project together without any conflict.
+      * _We can integrate different parts of project together without any conflict_
    * Responsive design
-      * _By using bootstrap, we can design a web page for various screen resolutions.
+      * _By using bootstrap, we can design a web page for various screen resolutions_
    * Browser Compatibility
-      * _The modern browsers such as Firefox, chrome, opera, Edge, Safari supports this bootstrap
+      * _The modern browsers such as Firefox, chrome, opera, Edge, Safari supports this bootstrap_
                           
                           
  
