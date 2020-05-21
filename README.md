@@ -219,6 +219,21 @@ ____
       * _By using bootstrap, we can design a web page for various screen resolutions_
    * Browser Compatibility
       * _The modern browsers such as Firefox, chrome, opera, Edge, Safari supports this bootstrap_
+      
+      
+### Color codes :
+   Color code | Color 
+   ------|------
+   **Primary** | Blue
+   **Secondary** | Grey
+   **Danger** | Red
+   **Warning** | Orange
+   **Success** | Green
+   **Info** | Sky blue
+   **White** | White
+   **dark** | Black
+   **light** | Light grey
+   **muted** | Disable
                           
                           
  
