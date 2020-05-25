@@ -246,7 +246,32 @@ ____
       * Large
    * xl
       * eXtra Large
-                          
+
+## 25-05-2020
+____
+
+* Map()
+* Arrow functions
+* Ready states
+   * `0`   =>  Request not initialized
+   * `1`   =>  Connection between client and server is established
+   * `2`   =>  Server received the request
+   * `3`   =>  Servers process the request
+   * `4`   =>  Ready to respond
+
+* Errors in the communication
+   * `1`  =>  Navigational Errors, Ex: 101 destination not found
+   * `2`  =>  Success messages, Ex: 200 Ok 
+   * `3`  =>  Data errors, Ex: 303 Error at particular line
+   * `4`  =>  Client side errors, Ex: 404 Client side errors
+   * `5`  =>  Server side errors, 500 Internal server error, 503 Time out
+
+* Promises
+   * States in promises:
+      * **Pending** : Neither Success Nor Rejected
+      * **Success || fulfilled** : Request completed successfully.
+      * **Rejected** : Request rejected
+      * Examples: Fetch, Cache                        
                           
  
  
