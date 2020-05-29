@@ -271,7 +271,75 @@ ____
       * **Pending** : Neither Success Nor Rejected
       * **Success || fulfilled** : Request completed successfully.
       * **Rejected** : Request rejected
-      * Examples: Fetch, Cache                        
+      * Examples: Fetch, Cache
+
+## 27-05-2020
+____
+* Download [nodejs](https://nodejs.org/en/) and install.
+   * `node -v`
+   * `npm -v`
+* Installation procedure for react
+   * `npm install create-react-app -g` (Installing react)
+   * `create-react-app <project_name>` (Creating a react project)
+* File structure of react project
+   * node_modules
+   * public
+      * index.html
+      * favicon.ico
+      * manifest.json
+      * ROBOTS.txt
+   * src
+      * index.js
+      * App.js
+      * App.css
+      * index.css
+      * Test.js
+      * settest.js
+      * serviceWorker
+
+* Features of **React**
+   * Component based library
+   * It uses VirtualDOM
+   * JSX
+   * Performance
+   * Simplicity (Leraning curve is high)
+
+* Real DOM vs Virtual DOM
+
+* Class Component
+   * class keyword, Component
+   * Need to use render method for returning a value
+   * stateful component
+      * state => Maintains storage area
+      * setState => Manipulate the info in the state
+
+* functional componant
+   * function keyword
+   * stateless component
+
+## 28-05-2020
+____
+* Composition of Components
+* Styling of the components
+* States in class components
+* `setState()`
+* Hooks in functional components
+   * `useState`
+
+## 29-05-2020
+____
+* Props (properties)
+   We can pass information from one component to another.
+* Props in functional component: We used the parameter along with the property key for getting info.
+* Props in class component: We used `this.props.key` for getting information from a component.
+
+Test.js
+
+<img src="props1.png" alt="props" />
+
+Sample.js
+
+<img src="props2.png" alt="props" />
                           
  
  

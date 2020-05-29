@@ -20,6 +20,11 @@
 
 			<!-- Descriptive part -->
 			<div class="col-lg-8">
+				<div class="card">
+					<div class="card-body" id="child2">
+
+					</div>
+				 </div>
 			</div>
 		</div>
 	</div>		
@@ -47,8 +52,11 @@
 	.then(function(response){ return response.json(); })
 	.then(function(data){ 
 		profile(data.profile);
+		summary(data.summary);
 	 })
 	.catch(function(error){ console.warn(error); })
+
+	var child2=document.querySelector("#child2");
 
 	function profile(profileInfo){
 		var profileSection=document.querySelector("#profile");
@@ -63,6 +71,23 @@
 		profileSection.appendChild(email)
 	}
 
+var summary=(summary)=>{
+	var summary_heading=document.createElement("h2");
+	summary_heading.textContent="Summary";
+	child2.appendChild(summary_heading);
+
+	var hr=document.createElement("hr");
+	child2.appendChild(hr);
+
+	var list=document.createElement("ul");
+	child2.appendChild(list);
+
+	summary.map((i)=>{
+		var listitem=document.createElement("li");
+		listitem.textContent=i;
+		list.appendChild(listitem);
+	})
+}
 	
 </script>
 </html>
